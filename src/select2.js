@@ -215,7 +215,7 @@ angular.module('ui.select2', []).value('uiSelect2Config', {}).directive('uiSelec
             }
             elm.prev().toggleClass('ng-pristine', controller.$pristine);
           }
-        }, 50);
+        }, 300);
       };
     }
   };
